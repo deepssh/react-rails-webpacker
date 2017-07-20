@@ -36,3 +36,4 @@ gem 'responders'
 
 
 gem 'foreman'
+gem 'mini_racer', platforms: :ruby
