@@ -13,7 +13,10 @@ gem 'jbuilder'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', group: :doc
 gem 'jquery-rails'
-gem 'webpacker', '~> 2.0'
+# gem 'react-rails'
+gem "react_on_rails", "~> 6"
+# gem 'webpacker', '~> 2.0'
+# gem 'webpack-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -30,4 +33,6 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'responders'
-gem 'react-rails'
+
+
+gem 'foreman'

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ReactRailsCrudTutorial</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag "application" %>
+  <title>React Rails Webpack CRUD</title>
+  <%= stylesheet_link_tag *webpack_asset_paths('application', extension: 'css') %>
+  <%= javascript_include_tag *webpack_asset_paths("application") %>
   <%= csrf_meta_tags %>
 </head>
 <body>
